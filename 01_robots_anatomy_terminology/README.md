@@ -46,3 +46,35 @@ The job to be performed must be inside the work volume.
 2. Example 2: Cartesian Robot:
 The joints of the Cartesian robot are made of Prismatic joints. Variation is just 'd'.
 ![alt text](image-5.png)
+
+We can represent the configuration of a robotic system in terms of its independent coordinates 'q'.
+Example Robot Configurations:
+1. Cartesian: PPP       //P-prismatic joint
+2. Cylindrical: RPP     //Revolute joint
+3. Spherical: RRP
+4. Articulated: RRR
+5. SCARA: RRPR          //Selective Compliance Assembly Robot Arm - DOF 4.
+![alt text](image-6.png)
+
+Actuators: 
+Moves the robotic system.
+
+Types:
+1. Electric Actuators: 
+    1. DC Motor. Speed = RPM.
+    2. Stepper Motot. When stater windings are excited, the rotor aligns accordingly. Helps in moving clock-wise and anti-clockwise rotation of stepper motor.
+    3. DC Servo Motor
+2. Smart Actuators:
+    1. Shape Memory Alloy Actuators (SMA): The alloy contracts and expands based on temperature allowing for movements, like worms.
+    ![alt text](image-7.png)
+    2. Electrostatic Micro Actuators: Attractive force between two plates after passing electricity two those plates.
+    ![alt text](image-8.png)
+
+Sensors: 
+1. Encoders:
+    1. Absolute Optical Encoder:
+    white region is transparent, dark boxes are opaque. if light passes, its 1*ring value, else 0*rung value. The decoded value is calculated.
+    ![alt text](image-9.png)
+    2. Incremental Optical Encoder:
+    3. Force Sensor: Strain guages are present in the region where pressure is going to be applied. The resistence of strain guage is calculated.
+    ![alt text](image-10.png)
