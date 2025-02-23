@@ -1,5 +1,5 @@
 # NPTEL Course: Intelligent Control of Robotic Systems 🤖
-**By Prof. M. Felix Orlando | IIT Roorkee**
+**By  IIT Roorkee**
 
 This course covers the fundamentals of robotics and intelligent control. It explores essential topics such as fuzzy logics, neural networks, and reinforcement learning, with MATLAB-based simulation studies to help bring theory into practice.
 
